@@ -1,0 +1,69 @@
+{
+  "spider": "https://fastly.jsdelivr.net/gh/huanxyz/nom3u8@main/jar/spider.jar",
+  "sites": [
+    {
+      "key": "source_3kor",
+      "name": "來源 1：3kor 影視",
+      "type": 3,
+      "api": "csp_Xbiquge",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://3kor.com",
+        "homeUrl": "/",
+        "searchUrl": "/search?wd={wd}",
+        "cateUrl": "/category/{cateId}-{catePage}.html",
+        "detailUrl": "/detail/{detailId}.html"
+      }
+    },
+    {
+      "key": "source_gimy",
+      "name": "來源 2：Gimy 劇迷",
+      "type": 3,
+      "api": "csp_Xbiquge",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://gimytw.cc",
+        "homeUrl": "/",
+        "searchUrl": "/vodsearch/-------------外部-----------.html?wd={wd}",
+        "cateUrl": "/vodtype/{cateId}-{catePage}.html",
+        "detailUrl": "/voddetail/{detailId}.html"
+      }
+    },
+    {
+      "key": "source_yfsp",
+      "name": "來源 3：先鋒影音",
+      "type": 3,
+      "api": "csp_Xbiquge",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://www.yfsp.tv",
+        "homeUrl": "/",
+        "searchUrl": "/vod/search.html?wd={wd}",
+        "cateUrl": "/list/{cateId}-{catePage}.html",
+        "detailUrl": "/vod/{detailId}.html"
+      }
+    },
+    {
+      "key": "source_dramasq",
+      "name": "來源 4：DramaQ 影視",
+      "type": 3,
+      "api": "csp_Xbiquge",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "siteUrl": "https://dramasq.io",
+        "homeUrl": "/",
+        "searchUrl": "/vodsearch/-------------外部-----------.html?wd={wd}",
+        "cateUrl": "/vodtype/{cateId}-{catePage}.html",
+        "detailUrl": "/voddetail/{detailId}.html"
+      }
+    }
+  ]
+}
