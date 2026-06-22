@@ -1,69 +1,40 @@
 {
-  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/catvod/main/jar/spider.jar",
   "sites": [
     {
-      "key": "source_3kor",
-      "name": "來源 1：3kor 影視",
-      "type": 3,
-      "api": "csp_Xbiquge",
+      "key": "source_gimy_api",
+      "name": "來源 1：Gimy 劇迷 (原生高速線路)",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "https://3kor.com",
-        "homeUrl": "/",
-        "searchUrl": "/search?wd={wd}",
-        "cateUrl": "/category/{cateId}-{catePage}.html",
-        "detailUrl": "/detail/{detailId}.html"
-      }
+      "filterable": 1
     },
     {
-      "key": "source_gimy",
-      "name": "來源 2：Gimy 劇迷",
-      "type": 3,
-      "api": "csp_Xbiquge",
+      "key": "source_dramasq_api",
+      "name": "來源 2：DramaQ 韓陸劇 (免JAR專線)",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "https://gimytw.cc",
-        "homeUrl": "/",
-        "searchUrl": "/vodsearch/-------------外部-----------.html?wd={wd}",
-        "cateUrl": "/vodtype/{cateId}-{catePage}.html",
-        "detailUrl": "/voddetail/{detailId}.html"
-      }
+      "filterable": 1
     },
     {
-      "key": "source_yfsp",
-      "name": "來源 3：先鋒影音",
-      "type": 3,
-      "api": "csp_Xbiquge",
+      "key": "source_3kor_api",
+      "name": "來源 3：3kor 影視 (直連採集)",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "https://www.yfsp.tv",
-        "homeUrl": "/",
-        "searchUrl": "/vod/search.html?wd={wd}",
-        "cateUrl": "/list/{cateId}-{catePage}.html",
-        "detailUrl": "/vod/{detailId}.html"
-      }
+      "filterable": 1
     },
     {
-      "key": "source_dramasq",
-      "name": "來源 4：DramaQ 影視",
-      "type": 3,
-      "api": "csp_Xbiquge",
+      "key": "source_yfsp_api",
+      "name": "來源 4：先鋒影音 (備用專線)",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "siteUrl": "https://dramasq.io",
-        "homeUrl": "/",
-        "searchUrl": "/vodsearch/-------------外部-----------.html?wd={wd}",
-        "cateUrl": "/vodtype/{cateId}-{catePage}.html",
-        "detailUrl": "/voddetail/{detailId}.html"
-      }
+      "filterable": 1
     }
   ]
 }
