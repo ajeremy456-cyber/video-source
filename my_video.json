@@ -1,36 +1,72 @@
 {
   "sites": [
     {
-      "key": "source_gimy_api",
-      "name": "來源 1：Gimy 劇迷 (原生高速線路)",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "key": "source_lzi",
+      "name": "來源 1：Gimy/量子線路 (原生藍光)",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "source_dramasq_api",
+      "key": "source_dramasq",
       "name": "來源 2：DramaQ 韓陸劇 (免JAR專線)",
-      "type": 0,
+      "type": 1,
       "api": "https://subocaiji.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "source_3kor_api",
-      "name": "來源 3：3kor 影視 (直連採集)",
-      "type": 0,
+      "key": "source_3kor",
+      "name": "來源 3：ikun/3kor 影視 (直連採集)",
+      "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "source_yfsp_api",
-      "name": "來源 4：先鋒影音 (備用專線)",
-      "type": 0,
+      "key": "source_modu",
+      "name": "來源 4：墨都影音 (墨都雲對應源)",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "source_ff",
+      "name": "來源 5：非凡線路 (極速高清)",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "source_bf",
+      "name": "來源 6：暴風線路 (高清專線)",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "source_sn",
+      "name": "來源 7：索尼線路 (4K備用源)",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "source_yfsp",
+      "name": "來源 8：紅牛/先鋒影音 (備用專線)",
+      "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
